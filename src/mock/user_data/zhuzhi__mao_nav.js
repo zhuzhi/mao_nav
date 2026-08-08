@@ -7,48 +7,12 @@ export const mockData = {
       "order": 0,
       "sites": [
         {
-          "id": "site-1752649007053",
-          "name": "BeJson",
-          "url": "https://www.bejson.com/",
-          "description": "工具大全",
-          "icon": "/sitelogo/www.bejson.com.ico"
+          "id": "site-1786196640792",
+          "name": "百度网盘",
+          "url": "https://pan.baidu.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/pan.baidu.com"
         },
-        {
-          "id": "curlconverter",
-          "name": "curl converter",
-          "url": "https://curlconverter.com/",
-          "description": "curl命令转换工具",
-          "icon": "/sitelogo/curlconverter.com.ico"
-        },
-        {
-          "id": "linux-do",
-          "name": "Linux.do",
-          "url": "https://linux.do",
-          "description": "Linux技术社区，Peace and Love",
-          "icon": "/sitelogo/linux.do.ico"
-        },
-        {
-          "id": "site-1752857783656",
-          "name": "OpenAI",
-          "url": "https://chatgpt.com",
-          "description": "OpenAI,好用👌",
-          "icon": "/sitelogo/chatgpt.com.ico"
-        },
-        {
-          "id": "site-1786193155753",
-          "name": "gitea",
-          "url": "https://gitea.zhuzhi.online/",
-          "description": "个人搭建类github网站，部署在vultr上，因为有443端口",
-          "icon": "https://www.faviconextractor.com/favicon/gitea.zhuzhi.online"
-        }
-      ]
-    },
-    {
-      "id": "ai-tools",
-      "name": "AI智能",
-      "icon": "🤖",
-      "order": 1,
-      "sites": [
         {
           "id": "site-1786193256770",
           "name": "DeepSeek",
@@ -69,6 +33,57 @@ export const mockData = {
           "url": "https://www.doubao.com/",
           "description": "百度的替代，偶尔抽风，情绪价值给足",
           "icon": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/doubao_avatar_new.png"
+        }
+      ]
+    },
+    {
+      "id": "category-1786196345207",
+      "icon": "💻",
+      "name": "量化",
+      "order": 1,
+      "sites": [
+        {
+          "id": "site-1786196417792",
+          "name": "Quantocracy",
+          "url": "https://quantocracy.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/quantocracy.com"
+        },
+        {
+          "id": "site-1786196439225",
+          "name": "BigQuant",
+          "url": "https://bigquant.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/bigquant.com"
+        },
+        {
+          "id": "site-1786196479375",
+          "name": "土法炼钢兴趣小组",
+          "url": "https://quant67.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/quant67.com"
+        },
+        {
+          "id": "tradingview",
+          "name": "TradingView",
+          "url": "https://cn.tradingview.com",
+          "description": "专业金融图表和交易平台",
+          "icon": "/sitelogo/cn.tradingview.com.ico"
+        }
+      ]
+    },
+    {
+      "id": "ai-tools",
+      "name": "AI智能",
+      "icon": "🤖",
+      "order": 2,
+      "sites": [
+        {
+          "id": "site-1786196978079",
+          "name": "deepseek开放平台",
+          "url": "https://platform.deepseek.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/platform.deepseek.com"
         },
         {
           "id": "chatgpt",
@@ -76,6 +91,13 @@ export const mockData = {
           "url": "https://chat.openai.com",
           "description": "OpenAI对话AI助手",
           "icon": "/sitelogo/chat.openai.com.ico"
+        },
+        {
+          "id": "site-1752857783656",
+          "name": "OpenAI",
+          "url": "https://chatgpt.com",
+          "description": "OpenAI,好用👌",
+          "icon": "/sitelogo/chatgpt.com.ico"
         }
       ]
     },
@@ -83,7 +105,7 @@ export const mockData = {
       "id": "category-1786194603715",
       "icon": "🌐",
       "name": "个人站点",
-      "order": 2,
+      "order": 3,
       "sites": [
         {
           "id": "site-1786194705933",
@@ -126,42 +148,49 @@ export const mockData = {
           "url": "http://38.59.245.35:8088/",
           "description": "f_m",
           "icon": "https://www.faviconextractor.com/favicon/t.me"
+        },
+        {
+          "id": "site-1786193155753",
+          "name": "gitea",
+          "url": "https://gitea.zhuzhi.online/",
+          "description": "个人搭建类github网站，部署在vultr上，因为有443端口",
+          "icon": "https://www.faviconextractor.com/favicon/gitea.zhuzhi.online"
         }
       ]
     },
     {
-      "id": "dev-tools",
-      "name": "开发工具",
-      "icon": "🛠️",
-      "order": 3,
+      "id": "category-1786196601711",
+      "icon": "📁",
+      "name": "网络存储",
+      "order": 4,
       "sites": [
         {
-          "id": "vscode",
-          "name": "VS Code",
-          "url": "https://code.visualstudio.com",
-          "description": "代码编辑器",
-          "icon": "/sitelogo/code.visualstudio.com.ico"
+          "id": "site-1786196654956",
+          "name": "阿里云盘",
+          "url": "https://www.alipan.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.alipan.com"
         },
         {
-          "id": "webstorm",
-          "name": "JetBrains",
-          "url": "https://www.jetbrains.com/",
-          "description": "专业前端IDE",
-          "icon": "https://www.faviconextractor.com/favicon/www.jetbrains.com"
+          "id": "site-1786196793206",
+          "name": "联通云盘",
+          "url": "https://pan.wo.cn/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/pan.wo.cn"
         },
         {
-          "id": "postman",
-          "name": "Postman",
-          "url": "https://www.postman.com",
-          "description": "API测试工具",
-          "icon": "/sitelogo/www.postman.com.ico"
+          "id": "site-1786197027620",
+          "name": "GoogleDrive",
+          "url": "https://drive.google.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/drive.google.com"
         },
         {
-          "id": "site-1774438333579",
-          "name": "freemail",
-          "url": "https://mail.chatgpt.org.uk/",
-          "description": "免费邮箱站点",
-          "icon": "https://www.faviconextractor.com/favicon/mail.chatgpt.org.uk"
+          "id": "site-1786197050118",
+          "name": "Mega",
+          "url": "https://mega.nz/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/mega.nz"
         }
       ]
     },
@@ -169,7 +198,7 @@ export const mockData = {
       "id": "cloud",
       "name": "云服务",
       "icon": "☁️",
-      "order": 4,
+      "order": 5,
       "sites": [
         {
           "id": "aliyun",
@@ -230,38 +259,52 @@ export const mockData = {
       ]
     },
     {
-      "id": "category-1786196345207",
-      "icon": "💻",
-      "name": "量化",
-      "order": 5,
+      "id": "dev-tools",
+      "name": "开发工具",
+      "icon": "🛠️",
+      "order": 6,
       "sites": [
         {
-          "id": "site-1786196417792",
-          "name": "Quantocracy",
-          "url": "https://quantocracy.com/",
-          "description": "",
-          "icon": "https://www.faviconextractor.com/favicon/quantocracy.com"
+          "id": "vscode",
+          "name": "VS Code",
+          "url": "https://code.visualstudio.com",
+          "description": "代码编辑器",
+          "icon": "/sitelogo/code.visualstudio.com.ico"
         },
         {
-          "id": "site-1786196439225",
-          "name": "BigQuant",
-          "url": "https://bigquant.com/",
-          "description": "",
-          "icon": "https://www.faviconextractor.com/favicon/bigquant.com"
+          "id": "webstorm",
+          "name": "JetBrains",
+          "url": "https://www.jetbrains.com/",
+          "description": "专业前端IDE",
+          "icon": "https://www.faviconextractor.com/favicon/www.jetbrains.com"
         },
         {
-          "id": "site-1786196479375",
-          "name": "土法炼钢兴趣小组",
-          "url": "https://quant67.com/",
-          "description": "",
-          "icon": "https://www.faviconextractor.com/favicon/quant67.com"
+          "id": "postman",
+          "name": "Postman",
+          "url": "https://www.postman.com",
+          "description": "API测试工具",
+          "icon": "/sitelogo/www.postman.com.ico"
         },
         {
-          "id": "tradingview",
-          "name": "TradingView",
-          "url": "https://cn.tradingview.com",
-          "description": "专业金融图表和交易平台",
-          "icon": "/sitelogo/cn.tradingview.com.ico"
+          "id": "site-1774438333579",
+          "name": "freemail",
+          "url": "https://mail.chatgpt.org.uk/",
+          "description": "免费邮箱站点",
+          "icon": "https://www.faviconextractor.com/favicon/mail.chatgpt.org.uk"
+        },
+        {
+          "id": "site-1752649007053",
+          "name": "BeJson",
+          "url": "https://www.bejson.com/",
+          "description": "工具大全",
+          "icon": "/sitelogo/www.bejson.com.ico"
+        },
+        {
+          "id": "curlconverter",
+          "name": "curl converter",
+          "url": "https://curlconverter.com/",
+          "description": "curl命令转换工具",
+          "icon": "/sitelogo/curlconverter.com.ico"
         }
       ]
     },
@@ -269,7 +312,7 @@ export const mockData = {
       "id": "finance",
       "name": "财经投资",
       "icon": "💰",
-      "order": 6,
+      "order": 7,
       "sites": [
         {
           "id": "site-1786196276014",
@@ -312,7 +355,7 @@ export const mockData = {
       "id": "tools",
       "name": "在线工具",
       "icon": "⚙️",
-      "order": 7,
+      "order": 8,
       "sites": [
         {
           "id": "site-1786195536130",
@@ -348,7 +391,7 @@ export const mockData = {
       "id": "entertainment",
       "name": "娱乐休闲",
       "icon": "🎮",
-      "order": 8,
+      "order": 9,
       "sites": [
         {
           "id": "bilibili",
@@ -370,7 +413,7 @@ export const mockData = {
       "id": "community",
       "name": "社区论坛",
       "icon": "👥",
-      "order": 9,
+      "order": 10,
       "sites": [
         {
           "id": "linuxdo",
