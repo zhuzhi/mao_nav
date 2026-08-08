@@ -230,31 +230,31 @@ export const mockData = {
       ]
     },
     {
-      "id": "finance",
-      "name": "财经投资",
-      "icon": "💰",
+      "id": "category-1786196345207",
+      "icon": "💻",
+      "name": "量化",
       "order": 5,
       "sites": [
         {
-          "id": "binance",
-          "name": "币安",
-          "url": "https://www.binance.com",
-          "description": "加密货币交易平台",
-          "icon": "/sitelogo/www.binance.com.ico"
+          "id": "site-1786196417792",
+          "name": "Quantocracy",
+          "url": "https://quantocracy.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/quantocracy.com"
         },
         {
-          "id": "okx",
-          "name": "OKX",
-          "url": "https://www.okx.com",
-          "description": "数字资产交易服务平台",
-          "icon": "/sitelogo/www.okx.com.ico"
+          "id": "site-1786196439225",
+          "name": "BigQuant",
+          "url": "https://bigquant.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/bigquant.com"
         },
         {
-          "id": "bitget",
-          "name": "Bitget",
-          "url": "https://www.bitget.com",
-          "description": "全球化数字资产交易服务商",
-          "icon": "/sitelogo/www.bitget.com.ico"
+          "id": "site-1786196479375",
+          "name": "土法炼钢兴趣小组",
+          "url": "https://quant67.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/quant67.com"
         },
         {
           "id": "tradingview",
@@ -262,6 +262,21 @@ export const mockData = {
           "url": "https://cn.tradingview.com",
           "description": "专业金融图表和交易平台",
           "icon": "/sitelogo/cn.tradingview.com.ico"
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "财经投资",
+      "icon": "💰",
+      "order": 6,
+      "sites": [
+        {
+          "id": "site-1786196276014",
+          "name": "东方财富网",
+          "url": "https://www.eastmoney.com/",
+          "description": "",
+          "icon": "https://a.favicon.im/www.eastmoney.com"
         },
         {
           "id": "tonghuashun",
@@ -271,25 +286,25 @@ export const mockData = {
           "icon": "/sitelogo/www.10jqka.com.cn.ico"
         },
         {
+          "id": "site-1786196253983",
+          "name": "天天基金网",
+          "url": "https://www.1234567.com.cn/",
+          "description": "",
+          "icon": "https://a.favicon.im/www.eastmoney.com"
+        },
+        {
+          "id": "site-1786196306728",
+          "name": "集思录",
+          "url": "https://www.jisilu.cn/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.jisilu.cn"
+        },
+        {
           "id": "xueqiu",
           "name": "雪球",
           "url": "https://xueqiu.com",
           "description": "聪明的投资者都在这里",
           "icon": "/sitelogo/xueqiu.com.ico"
-        },
-        {
-          "id": "coinbase",
-          "name": "Coinbase",
-          "url": "https://www.coinbase.com",
-          "description": "美国合规加密货币交易平台",
-          "icon": "/sitelogo/www.coinbase.com.ico"
-        },
-        {
-          "id": "futu",
-          "name": "富途牛牛",
-          "url": "https://www.futunn.com",
-          "description": "港美股交易软件",
-          "icon": "/sitelogo/www.futunn.com.ico"
         }
       ]
     },
@@ -297,7 +312,7 @@ export const mockData = {
       "id": "tools",
       "name": "在线工具",
       "icon": "⚙️",
-      "order": 6,
+      "order": 7,
       "sites": [
         {
           "id": "site-1786195536130",
@@ -333,7 +348,7 @@ export const mockData = {
       "id": "entertainment",
       "name": "娱乐休闲",
       "icon": "🎮",
-      "order": 7,
+      "order": 8,
       "sites": [
         {
           "id": "bilibili",
@@ -355,7 +370,7 @@ export const mockData = {
       "id": "community",
       "name": "社区论坛",
       "icon": "👥",
-      "order": 8,
+      "order": 9,
       "sites": [
         {
           "id": "linuxdo",
