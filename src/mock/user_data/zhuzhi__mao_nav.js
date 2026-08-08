@@ -7,13 +7,6 @@ export const mockData = {
       "order": 0,
       "sites": [
         {
-          "id": "site-1778929068955",
-          "name": "猫图 AI",
-          "url": "https://catsapi.com",
-          "description": "AI 生图网站，Image2 3 分/张,每日有免费额度，",
-          "icon": "https://www.faviconextractor.com/favicon/catsapi.com"
-        },
-        {
           "id": "site-1752649007053",
           "name": "BeJson",
           "url": "https://www.bejson.com/",
@@ -42,11 +35,11 @@ export const mockData = {
           "icon": "/sitelogo/chatgpt.com.ico"
         },
         {
-          "id": "github",
-          "name": "GitHub",
-          "url": "https://github.com",
-          "description": "代码托管平台",
-          "icon": "/sitelogo/github.com.ico"
+          "id": "site-1786193155753",
+          "name": "gitea",
+          "url": "https://gitea.zhuzhi.online/",
+          "description": "个人搭建类github网站，部署在vultr上，因为有443端口",
+          "icon": "https://www.faviconextractor.com/favicon/gitea.zhuzhi.online"
         }
       ]
     },
@@ -57,39 +50,32 @@ export const mockData = {
       "order": 1,
       "sites": [
         {
+          "id": "site-1786193256770",
+          "name": "DeepSeek",
+          "url": "https://www.deepseek.com/",
+          "description": "国内开源AI标志",
+          "icon": "https://www.faviconextractor.com/favicon/www.deepseek.com"
+        },
+        {
+          "id": "site-1786193439321",
+          "name": "千问",
+          "url": "https://www.qianwen.com/",
+          "description": "写代码还行，挺直言不讳！",
+          "icon": "https://www.faviconextractor.com/favicon/www.qianwen.com"
+        },
+        {
+          "id": "site-1786193372380",
+          "name": "豆包",
+          "url": "https://www.doubao.com/",
+          "description": "百度的替代，偶尔抽风，情绪价值给足",
+          "icon": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/doubao_avatar_new.png"
+        },
+        {
           "id": "chatgpt",
           "name": "ChatGPT",
           "url": "https://chat.openai.com",
           "description": "OpenAI对话AI助手",
           "icon": "/sitelogo/chat.openai.com.ico"
-        },
-        {
-          "id": "claude",
-          "name": "Claude",
-          "url": "https://claude.ai",
-          "description": "Anthropic AI助手",
-          "icon": "/sitelogo/claude.ai.ico"
-        },
-        {
-          "id": "midjourney",
-          "name": "Midjourney",
-          "url": "https://www.midjourney.com",
-          "description": "AI图像生成工具",
-          "icon": "/sitelogo/www.midjourney.com.ico"
-        },
-        {
-          "id": "copilot",
-          "name": "GitHub Copilot",
-          "url": "https://github.com/features/copilot",
-          "description": "AI代码助手",
-          "icon": "/sitelogo/github.com.ico"
-        },
-        {
-          "id": "cursor",
-          "name": "Cursor",
-          "url": "https://cursor.sh",
-          "description": "AI代码编辑器",
-          "icon": "/sitelogo/cursor.sh.ico"
         }
       ]
     },
@@ -99,27 +85,6 @@ export const mockData = {
       "icon": "☁️",
       "order": 2,
       "sites": [
-        {
-          "id": "cloudflare",
-          "name": "Cloudflare",
-          "url": "https://www.cloudflare.com",
-          "description": "全球CDN和网络安全服务",
-          "icon": "/sitelogo/www.cloudflare.com.ico"
-        },
-        {
-          "id": "vercel",
-          "name": "Vercel",
-          "url": "https://vercel.com",
-          "description": "前端部署平台",
-          "icon": "/sitelogo/vercel.com.ico"
-        },
-        {
-          "id": "aws",
-          "name": "AWS",
-          "url": "https://aws.amazon.com",
-          "description": "亚马逊云服务",
-          "icon": "/sitelogo/aws.amazon.com.ico"
-        },
         {
           "id": "aliyun",
           "name": "阿里云",
@@ -142,11 +107,32 @@ export const mockData = {
           "icon": "/sitelogo/www.huaweicloud.com.ico"
         },
         {
-          "id": "site-1752644060499",
-          "name": "怕死云",
-          "url": "https://www.pasyun.com/",
-          "description": "ipv6机器",
-          "icon": "/sitelogo/www.pasyun.com.ico"
+          "id": "site-1786194306108",
+          "name": "AkkoCloud",
+          "url": "https://www.akkocloud.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.akkocloud.com"
+        },
+        {
+          "id": "site-1786194364034",
+          "name": "Vultr",
+          "url": "https://www.vultr.com/",
+          "description": "便宜",
+          "icon": "https://www.faviconextractor.com/favicon/www.vultr.com"
+        },
+        {
+          "id": "cloudflare",
+          "name": "Cloudflare",
+          "url": "https://www.cloudflare.com",
+          "description": "全球CDN和网络安全服务",
+          "icon": "/sitelogo/www.cloudflare.com.ico"
+        },
+        {
+          "id": "aws",
+          "name": "AWS",
+          "url": "https://aws.amazon.com",
+          "description": "亚马逊云服务",
+          "icon": "/sitelogo/aws.amazon.com.ico"
         }
       ]
     },
@@ -204,6 +190,13 @@ export const mockData = {
           "url": "https://mail.chatgpt.org.uk/",
           "description": "免费邮箱站点",
           "icon": "https://www.faviconextractor.com/favicon/mail.chatgpt.org.uk"
+        },
+        {
+          "id": "github",
+          "name": "GitHub",
+          "url": "https://github.com",
+          "description": "代码托管平台",
+          "icon": "/sitelogo/github.com.ico"
         }
       ]
     },
@@ -518,5 +511,6 @@ export const mockData = {
     }
   ],
   "title": "猫猫导航🐱",
-  "search": "google"
+  "search": "google",
+  "icp": ""
 }
