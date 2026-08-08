@@ -108,6 +108,34 @@ export const mockData = {
       "order": 3,
       "sites": [
         {
+          "id": "site-1786194866559",
+          "name": "JupyterLab",
+          "url": "https://server.zhuzhi.online:8889/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/jupyter.org"
+        },
+        {
+          "id": "site-1786193155753",
+          "name": "gitea",
+          "url": "https://gitea.zhuzhi.online/",
+          "description": "个人搭建类github网站，部署在vultr上，因为有443端口",
+          "icon": "https://www.faviconextractor.com/favicon/gitea.zhuzhi.online"
+        },
+        {
+          "id": "site-1786194908503",
+          "name": "Nextclout",
+          "url": "https://nextcloud.zhuzhi.online:10443/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/nextcloud.com"
+        },
+        {
+          "id": "site-1786203727059",
+          "name": "n8n",
+          "url": "https://n8n.zhuzhi.online:5678/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/n8n.io"
+        },
+        {
           "id": "site-1786194705933",
           "name": "Portainer",
           "url": "https://server.zhuzhi.online:9443/",
@@ -122,20 +150,6 @@ export const mockData = {
           "icon": "https://www.faviconextractor.com/favicon/docs.posit.co"
         },
         {
-          "id": "site-1786194866559",
-          "name": "JupyterLab",
-          "url": "https://server.zhuzhi.online:8889/",
-          "description": "",
-          "icon": "https://www.faviconextractor.com/favicon/jupyter.org"
-        },
-        {
-          "id": "site-1786194908503",
-          "name": "Nextclout",
-          "url": "https://nextcloud.zhuzhi.online:10443/",
-          "description": "",
-          "icon": "https://www.faviconextractor.com/favicon/nextcloud.com"
-        },
-        {
           "id": "site-1786194959569",
           "name": "NetData",
           "url": "https://server.zhuzhi.online:19998/",
@@ -148,13 +162,6 @@ export const mockData = {
           "url": "http://38.59.245.35:8088/",
           "description": "f_m",
           "icon": "https://www.faviconextractor.com/favicon/t.me"
-        },
-        {
-          "id": "site-1786193155753",
-          "name": "gitea",
-          "url": "https://gitea.zhuzhi.online/",
-          "description": "个人搭建类github网站，部署在vultr上，因为有443端口",
-          "icon": "https://www.faviconextractor.com/favicon/gitea.zhuzhi.online"
         }
       ]
     },
