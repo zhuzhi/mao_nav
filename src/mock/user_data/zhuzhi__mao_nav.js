@@ -430,6 +430,21 @@ export const mockData = {
           "icon": "/sitelogo/www.v2ex.com.ico"
         }
       ]
+    },
+    {
+      "id": "category-1786201662566",
+      "icon": "🔧",
+      "name": "内网工具",
+      "order": 0,
+      "sites": [
+        {
+          "id": "site-1786201759685",
+          "name": "DDNS-GO",
+          "url": "http://192.168.1.221:9876/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.cloudflare.com"
+        }
+      ]
     }
   ],
   "title": "猫猫导航🐱",
