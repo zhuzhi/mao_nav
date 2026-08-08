@@ -37,75 +37,10 @@ export const mockData = {
       ]
     },
     {
-      "id": "category-1786196345207",
-      "icon": "💻",
-      "name": "量化",
-      "order": 1,
-      "sites": [
-        {
-          "id": "site-1786196417792",
-          "name": "Quantocracy",
-          "url": "https://quantocracy.com/",
-          "description": "",
-          "icon": "https://www.faviconextractor.com/favicon/quantocracy.com"
-        },
-        {
-          "id": "site-1786196439225",
-          "name": "BigQuant",
-          "url": "https://bigquant.com/",
-          "description": "",
-          "icon": "https://www.faviconextractor.com/favicon/bigquant.com"
-        },
-        {
-          "id": "site-1786196479375",
-          "name": "土法炼钢兴趣小组",
-          "url": "https://quant67.com/",
-          "description": "",
-          "icon": "https://www.faviconextractor.com/favicon/quant67.com"
-        },
-        {
-          "id": "tradingview",
-          "name": "TradingView",
-          "url": "https://cn.tradingview.com",
-          "description": "专业金融图表和交易平台",
-          "icon": "/sitelogo/cn.tradingview.com.ico"
-        }
-      ]
-    },
-    {
-      "id": "ai-tools",
-      "name": "AI智能",
-      "icon": "🤖",
-      "order": 2,
-      "sites": [
-        {
-          "id": "site-1786196978079",
-          "name": "deepseek开放平台",
-          "url": "https://platform.deepseek.com/",
-          "description": "",
-          "icon": "https://www.faviconextractor.com/favicon/platform.deepseek.com"
-        },
-        {
-          "id": "chatgpt",
-          "name": "ChatGPT",
-          "url": "https://chat.openai.com",
-          "description": "OpenAI对话AI助手",
-          "icon": "/sitelogo/chat.openai.com.ico"
-        },
-        {
-          "id": "site-1752857783656",
-          "name": "OpenAI",
-          "url": "https://chatgpt.com",
-          "description": "OpenAI,好用👌",
-          "icon": "/sitelogo/chatgpt.com.ico"
-        }
-      ]
-    },
-    {
       "id": "category-1786194603715",
       "icon": "🌐",
       "name": "个人站点",
-      "order": 3,
+      "order": 1,
       "sites": [
         {
           "id": "site-1786194866559",
@@ -162,6 +97,92 @@ export const mockData = {
           "url": "http://38.59.245.35:8088/",
           "description": "f_m",
           "icon": "https://www.faviconextractor.com/favicon/t.me"
+        },
+        {
+          "id": "site-1786203949427",
+          "name": "阿里云FreshRSS",
+          "url": "https://aliyun.zhuzhi.online:8443/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/freshrss.org"
+        },
+        {
+          "id": "site-1786204052590",
+          "name": "VultrFreshRSS",
+          "url": "https://gitea.zhuzhi.online:8443/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/freshrss.org"
+        },
+        {
+          "id": "site-1786204096057",
+          "name": "阿里云RSSHub",
+          "url": "https://rss.zhuzhi.online:1200/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/rsshub.app"
+        }
+      ]
+    },
+    {
+      "id": "category-1786196345207",
+      "icon": "💻",
+      "name": "量化",
+      "order": 2,
+      "sites": [
+        {
+          "id": "site-1786196417792",
+          "name": "Quantocracy",
+          "url": "https://quantocracy.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/quantocracy.com"
+        },
+        {
+          "id": "site-1786196439225",
+          "name": "BigQuant",
+          "url": "https://bigquant.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/bigquant.com"
+        },
+        {
+          "id": "site-1786196479375",
+          "name": "土法炼钢兴趣小组",
+          "url": "https://quant67.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/quant67.com"
+        },
+        {
+          "id": "tradingview",
+          "name": "TradingView",
+          "url": "https://cn.tradingview.com",
+          "description": "专业金融图表和交易平台",
+          "icon": "/sitelogo/cn.tradingview.com.ico"
+        }
+      ]
+    },
+    {
+      "id": "ai-tools",
+      "name": "AI智能",
+      "icon": "🤖",
+      "order": 3,
+      "sites": [
+        {
+          "id": "site-1786196978079",
+          "name": "deepseek开放平台",
+          "url": "https://platform.deepseek.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/platform.deepseek.com"
+        },
+        {
+          "id": "chatgpt",
+          "name": "ChatGPT",
+          "url": "https://chat.openai.com",
+          "description": "OpenAI对话AI助手",
+          "icon": "/sitelogo/chat.openai.com.ico"
+        },
+        {
+          "id": "site-1752857783656",
+          "name": "OpenAI",
+          "url": "https://chatgpt.com",
+          "description": "OpenAI,好用👌",
+          "icon": "/sitelogo/chatgpt.com.ico"
         }
       ]
     },
@@ -442,7 +463,7 @@ export const mockData = {
       "id": "category-1786201662566",
       "icon": "🔧",
       "name": "内网工具",
-      "order": 0,
+      "order": 11,
       "sites": [
         {
           "id": "site-1786201759685",
