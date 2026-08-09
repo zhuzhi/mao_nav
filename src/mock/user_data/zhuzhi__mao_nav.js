@@ -343,6 +343,20 @@ export const mockData = {
       "order": 7,
       "sites": [
         {
+          "id": "site-1786291016214",
+          "name": "上海证券交易所",
+          "url": "https://www.sse.com.cn/",
+          "description": "ETF规模 https://www.sse.com.cn/market/funddata/volumn/etfvolumn/\n交易型货币基金规模 https://www.sse.com.cn/market/funddata/volumn/tcuvolumn/",
+          "icon": "https://www.faviconextractor.com/favicon/www.sse.com.cn"
+        },
+        {
+          "id": "site-1786291145132",
+          "name": "深圳证券交易所",
+          "url": "https://www.szse.cn/",
+          "description": "ETF份额 https://fund.szse.cn/marketdata/etf/",
+          "icon": "https://www.faviconextractor.com/favicon/www.szse.cn"
+        },
+        {
           "id": "site-1786196276014",
           "name": "东方财富网",
           "url": "https://www.eastmoney.com/",
