@@ -394,10 +394,39 @@ export const mockData = {
       ]
     },
     {
+      "id": "category-1786320708987",
+      "icon": "🌐",
+      "name": "邮箱",
+      "order": 8,
+      "sites": [
+        {
+          "id": "site-1786320789575",
+          "name": "Gmail",
+          "url": "https://mail.google.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/mail.google.com"
+        },
+        {
+          "id": "site-1786320764359",
+          "name": "网易126邮箱",
+          "url": "https://mail.126.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/mail.126.com"
+        },
+        {
+          "id": "site-1786320749823",
+          "name": "阿里邮箱",
+          "url": "https://mail.aliyun.com/",
+          "description": "",
+          "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/ali-mail.png"
+        }
+      ]
+    },
+    {
       "id": "tools",
       "name": "在线工具",
       "icon": "⚙️",
-      "order": 8,
+      "order": 9,
       "sites": [
         {
           "id": "site-1786195536130",
@@ -433,7 +462,7 @@ export const mockData = {
       "id": "entertainment",
       "name": "娱乐休闲",
       "icon": "🎮",
-      "order": 9,
+      "order": 10,
       "sites": [
         {
           "id": "bilibili",
@@ -455,7 +484,7 @@ export const mockData = {
       "id": "community",
       "name": "社区论坛",
       "icon": "👥",
-      "order": 10,
+      "order": 11,
       "sites": [
         {
           "id": "stackoverflow",
@@ -477,7 +506,7 @@ export const mockData = {
       "id": "category-1786201662566",
       "icon": "🔧",
       "name": "内网工具",
-      "order": 11,
+      "order": 12,
       "sites": [
         {
           "id": "site-1786201759685",
