@@ -429,6 +429,13 @@ export const mockData = {
       "order": 9,
       "sites": [
         {
+          "id": "site-1786676998518",
+          "name": "腾讯文档",
+          "url": "https://docs.qq.com",
+          "description": "微信登录",
+          "icon": "https://www.faviconextractor.com/favicon/docs.qq.com"
+        },
+        {
           "id": "site-1786195536130",
           "name": "Ruff",
           "url": "https://play.ruff.rs/",
