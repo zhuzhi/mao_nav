@@ -521,6 +521,13 @@ export const mockData = {
           "url": "http://192.168.1.221:9876/",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/www.cloudflare.com"
+        },
+        {
+          "id": "site-1786677093184",
+          "name": "FireFox",
+          "url": "http://192.168.1.221:5800/",
+          "description": "只有内网可访问，docker，随用随开，不用停止",
+          "icon": "https://www.faviconextractor.com/favicon/www.firefox.com"
         }
       ]
     }
