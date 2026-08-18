@@ -7,6 +7,13 @@ export const mockData = {
       "order": 0,
       "sites": [
         {
+          "id": "site-1787037808435",
+          "name": "飞书网页版",
+          "url": "https://scnyvt54jptg.feishu.cn/next/messenger/",
+          "description": "飞书桌面客户端太占内存了，采用手机APP+网页版本结合的方式",
+          "icon": "https://www.faviconextractor.com/favicon/feishu.cn"
+        },
+        {
           "id": "site-1786196640792",
           "name": "百度网盘",
           "url": "https://pan.baidu.com/",
