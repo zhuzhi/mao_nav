@@ -92,13 +92,6 @@ export const mockData = {
           "icon": "https://www.faviconextractor.com/favicon/docs.posit.co"
         },
         {
-          "id": "site-1786194959569",
-          "name": "NetData",
-          "url": "https://server.zhuzhi.online:19998/",
-          "description": "",
-          "icon": "https://www.faviconextractor.com/favicon/www.netdata.cloud"
-        },
-        {
           "id": "site-1786195260961",
           "name": "X-UI",
           "url": "http://38.59.245.35:8088/",
